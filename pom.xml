@@ -11,7 +11,7 @@
     <packaging>jar</packaging>
     <groupId>org.webjars</groupId>
     <artifactId>chalk</artifactId>
-    <version>0.4.1-SNAPSHOT</version>
+    <version>0.4.0-1-SNAPSHOT</version>
     <name>chalk</name>
     <description>WebJar for chalk</description>
     <url>http://webjars.org</url>
@@ -46,6 +46,24 @@
         <extractDir>${project.build.directory}/chalk-${upstreamVersion}</extractDir>
         <destDir>${project.build.outputDirectory}/META-INF/resources/webjars/${project.artifactId}/${upstreamVersion}</destDir>
     </properties>
+
+    <dependencies>
+        <dependency>
+            <groupId>org.webjars</groupId>
+            <artifactId>has-color</artifactId>
+            <version>0.1.0</version>
+        </dependency>
+        <dependency>
+            <groupId>org.webjars</groupId>
+            <artifactId>ansi-styles</artifactId>
+            <version>1.1.0</version>
+        </dependency>
+        <dependency>
+            <groupId>org.webjars</groupId>
+            <artifactId>strip-ansi</artifactId>
+            <version>0.2.2-1</version>
+        </dependency>
+    </dependencies>
 
     <build>
         <plugins>
