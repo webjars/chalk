@@ -11,7 +11,7 @@
     <packaging>jar</packaging>
     <groupId>org.webjars</groupId>
     <artifactId>chalk</artifactId>
-    <version>1.1.3-SNAPSHOT</version>
+    <version>1.1.3</version>
     <name>chalk</name>
     <description>WebJar for chalk</description>
     <url>http://webjars.org</url>
@@ -28,7 +28,7 @@
         <url>https://github.com/webjars/chalk</url>
         <connection>scm:git:https://github.com/webjars/chalk.git</connection>
         <developerConnection>scm:git:https://github.com/webjars/chalk.git</developerConnection>
-        <tag>HEAD</tag>
+        <tag>chalk-1.1.3</tag>
     </scm>
 
     <developers>
